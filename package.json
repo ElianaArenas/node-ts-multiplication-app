@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "y": "^0.3.2",
+    "yargs": "^17.7.2"
+  },
+  "scripts": {
+    "dev": "npx nodemon -b 10",
+    "start:dev": "ts-node src/app.ts -b 10"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.12",
+    "@types/yargs": "^17.0.32",
+    "typescript": "^5.4.5"
+  }
+}
